@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FlexBox Testing</title>
+    <style>
+        *,
+        *:before,
+        *:after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 100%;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        .row {
+            padding: 0;
+            margin: 0;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            height: 100px;
+            width: 100%;
+            background: #71f78b;
+            border: #71f78b 1px solid;
+        }
+        div >div {
+            background: #f77171;
+            border: #f44949 2px solid;
+            padding: 2px;
+            flex-basis: 25%;
+            width: 25%;
+            height: 100%;
+        }
+        .row:after {
+            content: " ";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div>col1</div>
+        <div>col2</div>
+        <div>col3</div>
+        <div>col4</div>
+    </div>
+
+    <div class="row">
+        <div>col1</div>
+        <div>col2</div>
+        <div>col3</div>
+        <div>col4</div>
+
+    </div>
+
+    <div class="row">
+        <div>col1</div>
+        <div>col2</div>
+        <div>col3</div>
+        <div>col4</div>
+
+    </div>
+
+    <div class="row">
+        <div>col1</div>
+        <div>col2</div>
+        <div>col3</div>
+        <div>col4</div>
+
+    </div>
+</body>
+
+</html>

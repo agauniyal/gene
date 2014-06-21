@@ -4,3 +4,132 @@ Licensed under Creative Commons Attribution License
 Author : Abhinav Gauniyal
 Release Date : 
 */
+
+/* 
+Set this in HTML : 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/grid.css">
+*/
+
+/* Better Box-Model */
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/* Rows and clearfix */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+/* Columns */
+
+.col-1-12,
+.col-2-12,
+.col-3-12,
+.col-4-12,
+.col-5-12,
+.col-6-12,
+.col-7-12,
+.col-8-12,
+.col-9-12,
+.col-10-12,
+.col-11-12,
+.col-12-12 {
+    float: left;
+    width: 100%; 
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+/* Or I can do [class*='col-'] {
+  float: left;
+} */
+
+/* Columns */
+
+
+.r-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@media screen and (min-width: 48em) {
+    /* mid devices*/
+.col-1-12{width: 8.3333%;}
+.col-2-12{width: 16.6667%;}
+.col-3-12{width: 25%;}
+.col-4-12{width: 33.3333%;}
+.col-5-12{width: 41.6667%;}
+.col-6-12{width: 50%;}
+.col-7-12{width: 58.3333%;}
+.col-8-12{width: 66.6667%;}
+.col-9-12{width: 75%;}
+.col-10-12{width: 83.3333%;}
+.col-11-12{width: 91.6667%;}
+.col-12-12{ }
+}
+@media screen and (min-width: 64em) {
+    /* lg devices */
+.col-1-12{width: 8.3333%;}
+.col-2-12{width: 16.6667%;}
+.col-3-12{width: 25%;}
+.col-4-12{width: 33.3333%;}
+.col-5-12{width: 41.6667%;}
+.col-6-12{width: 50%;}
+.col-7-12{width: 58.3333%;}
+.col-8-12{width: 66.6667%;}
+.col-9-12{width: 75%;}
+.col-10-12{width: 83.3333%;}
+.col-11-12{width: 91.6667%;}
+.col-12-12{}
+}
