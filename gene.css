@@ -92,6 +92,103 @@ html {
     -ms-flex-item-align: start;
     align-self: flex-start;
 }
+
+.col-nr-1,
+    .col-nr-2,
+    .col-nr-3,
+    .col-nr-4,
+    .col-nr-5,
+    .col-nr-6,
+    .col-nr-7,
+    .col-nr-8,
+    .col-nr-9,
+    .col-nr-10,
+    .col-nr-11,
+    .col-nr-12 {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+    .col-nr-1 {
+        width: 8.3333%;
+        -webkit-flex: 1 1 8.3333%;
+        -ms-flex: 1 1 8.3333%;
+        flex: 1 1 8.3333%;
+    }
+    .col-nr-2 {
+        width: 16.6667%;
+        -webkit-flex: 1 1 16.6667%;
+        -ms-flex: 1 1 16.6667%;
+        flex: 1 1 16.6667%;
+    }
+    .col-nr-3 {
+        width: 25%;
+        -webkit-flex: 1 1 25%;
+        -ms-flex: 1 1 25%;
+        flex: 1 1 25%;
+    }
+    .col-nr-4 {
+        width: 33.3333%;
+        -webkit-flex: 1 1 33.3333%;
+        -ms-flex: 1 1 33.3333%;
+        flex: 1 1 33.3333%;
+    }
+    .col-nr-5 {
+        width: 41.6667%;
+        -webkit-flex: 1 1 41.6667%;
+        -ms-flex: 1 1 41.6667%;
+        flex: 1 1 41.6667%;
+    }
+    .col-nr-6 {
+        width: 50%;
+        -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+        flex: 1 1 50%;
+    }
+    .col-nr-7 {
+        width: 58.3333%;
+        -webkit-flex: 1 1 58.3333%;
+        -ms-flex: 1 1 58.3333%;
+        flex: 1 1 58.3333%;
+    }
+    .col-nr-8 {
+        width: 66.6667%;
+        -webkit-flex: 1 1 66.6667%;
+        -ms-flex: 1 1 66.6667%;
+        flex: 1 1 66.6667%;
+    }
+    .col-nr-9 {
+        width: 75%;
+        -webkit-flex: 1 1 75%;
+        -ms-flex: 1 1 75%;
+        flex: 1 1 75%;
+    }
+    .col-nr-10 {
+        width: 83.3333%;
+        -webkit-flex: 1 1 83.3333%;
+        -ms-flex: 1 1 83.3333%;
+        flex: 1 1 83.3333%;
+    }
+    .col-nr-11 {
+        width: 91.6667%;
+        -webkit-flex: 1 1 91.6667%;
+        -ms-flex: 1 1 91.6667%;
+        flex: 1 1 91.6667%;
+    }
+    .col-nr-12 {
+        width: 100%;
+        -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+    }
+
 /* Or I can do [class^='col-'] {
   float: left;
 } */
