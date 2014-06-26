@@ -396,9 +396,3 @@ html {
         flex: 1 1 100%;
     }
 }
-@-moz-document url-prefix() {
-    .row {
-        width: 100%;
-        -moz-box-sizing: border-box;
-    }
-}
