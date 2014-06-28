@@ -195,6 +195,8 @@ html {
 
 /* Columns */
 
+.hide{display: none;}
+
 .r-img {
     max-width: 100%;
     height: auto;
@@ -297,6 +299,8 @@ html {
         -ms-flex: 1 1 100%;
         flex: 1 1 100%;
     }
+    
+    .hide-m{display: none;}
 }
 @media screen and (min-width: 64em) {
     /* lg devices */
@@ -395,4 +399,5 @@ html {
         -ms-flex: 1 1 100%;
         flex: 1 1 100%;
     }
+    .hide-l{display: none;}
 }
