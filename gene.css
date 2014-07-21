@@ -1,3 +1,4 @@
+
 /* 
 Lightweight and mobile-first flexbox responsive framework
 Licensed under Creative Commons Attribution License (these comments will do:)
@@ -8,25 +9,26 @@ Release Date: June 24, 2014
 
 /* 
 Set this in HTML : 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/path-to/normalize.css">
-    <link rel="stylesheet" href="/path-to/gene.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/path-to/normalize.css">
+<link rel="stylesheet" href="/path-to/gene.css">
 */
 
 /* Better Box-Model */
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+/* Better Box-Model */
+
 html {
     font-size: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
 /* Rows and clearfix */
 
 .row:after {
@@ -34,6 +36,7 @@ html {
     display: table;
     clear: both;
 }
+
 .row {
     width: 100%;
     display: -webkit-box;
@@ -65,20 +68,10 @@ html {
     -ms-flex-align: start;
     align-items: flex-start;
 }
+
 /* Columns */
 
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
     float: left;
     width: 100%;
     -webkit-box-ordinal-group: 1;
@@ -93,18 +86,8 @@ html {
     align-self: flex-start;
     padding: 2px;
 }
-.col-nr-1,
-.col-nr-2,
-.col-nr-3,
-.col-nr-4,
-.col-nr-5,
-.col-nr-6,
-.col-nr-7,
-.col-nr-8,
-.col-nr-9,
-.col-nr-10,
-.col-nr-11,
-.col-nr-12 {
+
+.col-nr-1, .col-nr-2, .col-nr-3, .col-nr-4, .col-nr-5, .col-nr-6, .col-nr-7, .col-nr-8, .col-nr-9, .col-nr-10, .col-nr-11, .col-nr-12 {
     -webkit-box-ordinal-group: 1;
     -moz-box-ordinal-group: 1;
     -webkit-order: 0;
@@ -117,118 +100,99 @@ html {
     align-self: flex-start;
     padding: 0;
 }
+
 .col-nr-1 {
     width: 8.3333%;
     -webkit-flex: 1 1 8.3333%;
     -ms-flex: 1 1 8.3333%;
     flex: 1 1 8.3333%;
 }
+
 .col-nr-2 {
     width: 16.6667%;
     -webkit-flex: 1 1 16.6667%;
     -ms-flex: 1 1 16.6667%;
     flex: 1 1 16.6667%;
 }
+
 .col-nr-3 {
     width: 25%;
     -webkit-flex: 1 1 25%;
     -ms-flex: 1 1 25%;
     flex: 1 1 25%;
 }
+
 .col-nr-4 {
     width: 33.3333%;
     -webkit-flex: 1 1 33.3333%;
     -ms-flex: 1 1 33.3333%;
     flex: 1 1 33.3333%;
 }
+
 .col-nr-5 {
     width: 41.6667%;
     -webkit-flex: 1 1 41.6667%;
     -ms-flex: 1 1 41.6667%;
     flex: 1 1 41.6667%;
 }
+
 .col-nr-6 {
     width: 50%;
     -webkit-flex: 1 1 50%;
     -ms-flex: 1 1 50%;
     flex: 1 1 50%;
 }
+
 .col-nr-7 {
     width: 58.3333%;
     -webkit-flex: 1 1 58.3333%;
     -ms-flex: 1 1 58.3333%;
     flex: 1 1 58.3333%;
 }
+
 .col-nr-8 {
     width: 66.6667%;
     -webkit-flex: 1 1 66.6667%;
     -ms-flex: 1 1 66.6667%;
     flex: 1 1 66.6667%;
 }
+
 .col-nr-9 {
     width: 75%;
     -webkit-flex: 1 1 75%;
     -ms-flex: 1 1 75%;
     flex: 1 1 75%;
 }
+
 .col-nr-10 {
     width: 83.3333%;
     -webkit-flex: 1 1 83.3333%;
     -ms-flex: 1 1 83.3333%;
     flex: 1 1 83.3333%;
 }
+
 .col-nr-11 {
     width: 91.6667%;
     -webkit-flex: 1 1 91.6667%;
     -ms-flex: 1 1 91.6667%;
     flex: 1 1 91.6667%;
 }
+
 .col-nr-12 {
     width: 100%;
     -webkit-flex: 1 1 100%;
     -ms-flex: 1 1 100%;
     flex: 1 1 100%;
 }
+
 /* Or I can do [class^='col-'] {
-  float: left;
+float: left;
 } */
 
 /* Columns */
 
-.hide {
-    display: none;
-}
-.r-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-@media screen and (min-width: 48em) {
-    /* mid devices*/
-    .col-m-1,
-    .col-m-2,
-    .col-m-3,
-    .col-m-4,
-    .col-m-5,
-    .col-m-6,
-    .col-m-7,
-    .col-m-8,
-    .col-m-9,
-    .col-m-10,
-    .col-m-11,
-    .col-m-12,
-    .col-1,
-    .col-2,
-    .col-3,
-    .col-4,
-    .col-5,
-    .col-6,
-    .col-7,
-    .col-8,
-    .col-9,
-    .col-10,
-    .col-11,
-    .col-12 {
+@media screen and (min-width:40.063em) {/* mid devices*/
+    .col-m-1, .col-m-2, .col-m-3, .col-m-4, .col-m-5, .col-m-6, .col-m-7, .col-m-8, .col-m-9, .col-m-10, .col-m-11, .col-m-12, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
         -webkit-box-ordinal-group: 1;
         -moz-box-ordinal-group: 1;
         -webkit-order: 0;
@@ -253,19 +217,19 @@ html {
         -ms-flex: 1 1 16.6667%;
         flex: 1 1 16.6667%;
     }
-    .col-m-3, .col-3{
+    .col-m-3, .col-3 {
         width: 25%;
         -webkit-flex: 1 1 25%;
         -ms-flex: 1 1 25%;
         flex: 1 1 25%;
     }
-    .col-m-4 , .col-4 {
+    .col-m-4, .col-4 {
         width: 33.3333%;
         -webkit-flex: 1 1 33.3333%;
         -ms-flex: 1 1 33.3333%;
         flex: 1 1 33.3333%;
     }
-    .col-m-5 , .col-5 {
+    .col-m-5, .col-5 {
         width: 41.6667%;
         -webkit-flex: 1 1 41.6667%;
         -ms-flex: 1 1 41.6667%;
@@ -277,7 +241,7 @@ html {
         -ms-flex: 1 1 50%;
         flex: 1 1 50%;
     }
-    .col-m-7 , .col-7 {
+    .col-m-7, .col-7 {
         width: 58.3333%;
         -webkit-flex: 1 1 58.3333%;
         -ms-flex: 1 1 58.3333%;
@@ -295,13 +259,13 @@ html {
         -ms-flex: 1 1 75%;
         flex: 1 1 75%;
     }
-    .col-m-10 , .col-10 {
+    .col-m-10, .col-10 {
         width: 83.3333%;
         -webkit-flex: 1 1 83.3333%;
         -ms-flex: 1 1 83.3333%;
         flex: 1 1 83.3333%;
     }
-    .col-m-11 , .col-11 {
+    .col-m-11, .col-11 {
         width: 91.6667%;
         -webkit-flex: 1 1 91.6667%;
         -ms-flex: 1 1 91.6667%;
@@ -313,36 +277,10 @@ html {
         -ms-flex: 1 1 100%;
         flex: 1 1 100%;
     }
-    .hide-m {
-        display: none;
-    }
 }
-@media screen and (min-width: 64em) {
-    /* lg devices */
-    .col-l-1,
-    .col-l-2,
-    .col-l-3,
-    .col-l-4,
-    .col-l-5,
-    .col-l-6,
-    .col-l-7,
-    .col-l-8,
-    .col-l-9,
-    .col-l-10,
-    .col-l-11,
-    .col-l-12,
-    .col-1,
-    .col-2,
-    .col-3,
-    .col-4,
-    .col-5,
-    .col-6,
-    .col-7,
-    .col-8,
-    .col-9,
-    .col-10,
-    .col-11,
-    .col-12 {
+
+@media screen and (min-width:64.063em) {/* lg devices */
+    .col-l-1, .col-l-2, .col-l-3, .col-l-4, .col-l-5, .col-l-6, .col-l-7, .col-l-8, .col-l-9, .col-l-10, .col-l-11, .col-l-12, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
         -webkit-box-ordinal-group: 1;
         -moz-box-ordinal-group: 1;
         -webkit-order: 0;
@@ -355,7 +293,7 @@ html {
         align-self: flex-start;
         padding: 0;
     }
-    .col-l-1 , .col-1{
+    .col-l-1, .col-1 {
         width: 8.3333%;
         -webkit-flex: 1 1 8.3333%;
         -ms-flex: 1 1 8.3333%;
@@ -367,7 +305,7 @@ html {
         -ms-flex: 1 1 16.6667%;
         flex: 1 1 16.6667%;
     }
-    .col-l-3 , .col-3{
+    .col-l-3, .col-3 {
         width: 25%;
         -webkit-flex: 1 1 25%;
         -ms-flex: 1 1 25%;
@@ -379,13 +317,13 @@ html {
         -ms-flex: 1 1 33.3333%;
         flex: 1 1 33.3333%;
     }
-    .col-l-5 , .col-5{
+    .col-l-5, .col-5 {
         width: 41.6667%;
         -webkit-flex: 1 1 41.6667%;
         -ms-flex: 1 1 41.6667%;
         flex: 1 1 41.6667%;
     }
-    .col-l-6 , .col-6{
+    .col-l-6, .col-6 {
         width: 50%;
         -webkit-flex: 1 1 50%;
         -ms-flex: 1 1 50%;
@@ -397,25 +335,25 @@ html {
         -ms-flex: 1 1 58.3333%;
         flex: 1 1 58.3333%;
     }
-    .col-l-8 , .col-8{
+    .col-l-8, .col-8 {
         width: 66.6667%;
         -webkit-flex: 1 1 66.6667%;
         -ms-flex: 1 1 66.6667%;
         flex: 1 1 66.6667%;
     }
-    .col-l-9 , .col-9{
+    .col-l-9, .col-9 {
         width: 75%;
         -webkit-flex: 1 1 75%;
         -ms-flex: 1 1 75%;
         flex: 1 1 75%;
     }
-    .col-l-10 , .col-10{
+    .col-l-10, .col-10 {
         width: 83.3333%;
         -webkit-flex: 1 1 83.3333%;
         -ms-flex: 1 1 83.3333%;
         flex: 1 1 83.3333%;
     }
-    .col-l-11 , .col-11{
+    .col-l-11, .col-11 {
         width: 91.6667%;
         -webkit-flex: 1 1 91.6667%;
         -ms-flex: 1 1 91.6667%;
@@ -427,7 +365,5 @@ html {
         -ms-flex: 1 1 100%;
         flex: 1 1 100%;
     }
-    .hide-l {
-        display: none;
-    }
 }
+
