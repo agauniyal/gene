@@ -124,10 +124,10 @@ html {
     flex: 1 1 8.3333%;
 }
 .col-nr-2 {
-    width: 16.6667%;
-    -webkit-flex: 1 1 16.6667%;
-    -ms-flex: 1 1 16.6667%;
-    flex: 1 1 16.6667%;
+    width: 16.6666%;
+    -webkit-flex: 1 1 16.6666%;
+    -ms-flex: 1 1 16.6666%;
+    flex: 1 1 16.6666%;
 }
 .col-nr-3 {
     width: 25%;
@@ -142,10 +142,10 @@ html {
     flex: 1 1 33.3333%;
 }
 .col-nr-5 {
-    width: 41.6667%;
-    -webkit-flex: 1 1 41.6667%;
-    -ms-flex: 1 1 41.6667%;
-    flex: 1 1 41.6667%;
+    width: 41.6666%;
+    -webkit-flex: 1 1 41.6666%;
+    -ms-flex: 1 1 41.6666%;
+    flex: 1 1 41.6666%;
 }
 .col-nr-6 {
     width: 50%;
@@ -160,10 +160,10 @@ html {
     flex: 1 1 58.3333%;
 }
 .col-nr-8 {
-    width: 66.6667%;
-    -webkit-flex: 1 1 66.6667%;
-    -ms-flex: 1 1 66.6667%;
-    flex: 1 1 66.6667%;
+    width: 66.6666%;
+    -webkit-flex: 1 1 66.6666%;
+    -ms-flex: 1 1 66.6666%;
+    flex: 1 1 66.6666%;
 }
 .col-nr-9 {
     width: 75%;
@@ -178,10 +178,10 @@ html {
     flex: 1 1 83.3333%;
 }
 .col-nr-11 {
-    width: 91.6667%;
-    -webkit-flex: 1 1 91.6667%;
-    -ms-flex: 1 1 91.6667%;
-    flex: 1 1 91.6667%;
+    width: 91.6666%;
+    -webkit-flex: 1 1 91.6666%;
+    -ms-flex: 1 1 91.6666%;
+    flex: 1 1 91.6666%;
 }
 .col-nr-12 {
     width: 100%;
@@ -248,10 +248,10 @@ html {
         flex: 1 1 8.3333%;
     }
     .col-m-2, .col-2 {
-        width: 16.6667%;
-        -webkit-flex: 1 1 16.6667%;
-        -ms-flex: 1 1 16.6667%;
-        flex: 1 1 16.6667%;
+        width: 16.6666%;
+        -webkit-flex: 1 1 16.6666%;
+        -ms-flex: 1 1 16.6666%;
+        flex: 1 1 16.6666%;
     }
     .col-m-3, .col-3{
         width: 25%;
@@ -266,10 +266,10 @@ html {
         flex: 1 1 33.3333%;
     }
     .col-m-5 , .col-5 {
-        width: 41.6667%;
-        -webkit-flex: 1 1 41.6667%;
-        -ms-flex: 1 1 41.6667%;
-        flex: 1 1 41.6667%;
+        width: 41.6666%;
+        -webkit-flex: 1 1 41.6666%;
+        -ms-flex: 1 1 41.6666%;
+        flex: 1 1 41.6666%;
     }
     .col-m-6, .col-6 {
         width: 50%;
@@ -284,10 +284,10 @@ html {
         flex: 1 1 58.3333%;
     }
     .col-m-8, .col-8 {
-        width: 66.6667%;
-        -webkit-flex: 1 1 66.6667%;
-        -ms-flex: 1 1 66.6667%;
-        flex: 1 1 66.6667%;
+        width: 66.6666%;
+        -webkit-flex: 1 1 66.6666%;
+        -ms-flex: 1 1 66.6666%;
+        flex: 1 1 66.6666%;
     }
     .col-m-9, .col-9 {
         width: 75%;
@@ -302,10 +302,10 @@ html {
         flex: 1 1 83.3333%;
     }
     .col-m-11 , .col-11 {
-        width: 91.6667%;
-        -webkit-flex: 1 1 91.6667%;
-        -ms-flex: 1 1 91.6667%;
-        flex: 1 1 91.6667%;
+        width: 91.6666%;
+        -webkit-flex: 1 1 91.6666%;
+        -ms-flex: 1 1 91.6666%;
+        flex: 1 1 91.6666%;
     }
     .col-m-12, .col-12 {
         width: 100%;
@@ -362,10 +362,10 @@ html {
         flex: 1 1 8.3333%;
     }
     .col-l-2, .col-2 {
-        width: 16.6667%;
-        -webkit-flex: 1 1 16.6667%;
-        -ms-flex: 1 1 16.6667%;
-        flex: 1 1 16.6667%;
+        width: 16.6666%;
+        -webkit-flex: 1 1 16.6666%;
+        -ms-flex: 1 1 16.6666%;
+        flex: 1 1 16.6666%;
     }
     .col-l-3 , .col-3{
         width: 25%;
@@ -380,10 +380,10 @@ html {
         flex: 1 1 33.3333%;
     }
     .col-l-5 , .col-5{
-        width: 41.6667%;
-        -webkit-flex: 1 1 41.6667%;
-        -ms-flex: 1 1 41.6667%;
-        flex: 1 1 41.6667%;
+        width: 41.6666%;
+        -webkit-flex: 1 1 41.6666%;
+        -ms-flex: 1 1 41.6666%;
+        flex: 1 1 41.6666%;
     }
     .col-l-6 , .col-6{
         width: 50%;
@@ -398,10 +398,10 @@ html {
         flex: 1 1 58.3333%;
     }
     .col-l-8 , .col-8{
-        width: 66.6667%;
-        -webkit-flex: 1 1 66.6667%;
-        -ms-flex: 1 1 66.6667%;
-        flex: 1 1 66.6667%;
+        width: 66.6666%;
+        -webkit-flex: 1 1 66.6666%;
+        -ms-flex: 1 1 66.6666%;
+        flex: 1 1 66.6666%;
     }
     .col-l-9 , .col-9{
         width: 75%;
@@ -416,10 +416,10 @@ html {
         flex: 1 1 83.3333%;
     }
     .col-l-11 , .col-11{
-        width: 91.6667%;
-        -webkit-flex: 1 1 91.6667%;
-        -ms-flex: 1 1 91.6667%;
-        flex: 1 1 91.6667%;
+        width: 91.6666%;
+        -webkit-flex: 1 1 91.6666%;
+        -ms-flex: 1 1 91.6666%;
+        flex: 1 1 91.6666%;
     }
     .col-l-12, .col-12 {
         width: 100%;
